@@ -53,6 +53,10 @@ async function textFunc(event) {
       message = { type: "text", text: "レッスン履歴です！" };
     case "＞レッスン予約確認":
       message = { type: "text", text: "レッスン予約確認です！" };
+      default :
+      message = {type:'text',text:`${event.message.text}を受け取ったよ！`}
+      break
+
   }
   return message;
 }
