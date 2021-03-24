@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "こまかいほう",
+  "chatBarText": "メニュー",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 4,
+        "width": 833,
+        "height": 838
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://kinokodata.net"
+      }
+    },
+    {
+      "bounds": {
+        "x": 833,
+        "y": 8,
+        "width": 834,
+        "height": 842
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://kinokodata.net"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 0,
+        "width": 834,
+        "height": 842
+      },
+      "action": {
+        "type": "message",
+        "text": "https://kinokodata.net"
+      }
+    },
+    {
+      "bounds": {
+        "x": 6,
+        "y": 844,
+        "width": 834,
+        "height": 842
+      },
+      "action": {
+        "type": "uri",
+        "uri": "https://kinokodata.net"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1666,
+        "y": 840,
+        "width": 834,
+        "height": 842
+      },
+      "action": {
+        "type": "message",
+        "text": "> 予約確認"
+      }
+    },
+    {
+      "bounds": {
+        "x": 26,
+        "y": 834,
+        "width": 834,
+        "height": 842
+      },
+      "action": {
+        "type": "message",
+        "text": "> レッスン履歴"
+      }
+    }
+  ]
+}
