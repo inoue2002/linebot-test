@@ -2,7 +2,7 @@ const functions = require("firebase-functions");
 const line = require("@line/bot-sdk");
 require("dotenv").config();
 
-exports.helloWorld = functions.https.onRequest(async (req, res) => {
+exports.linebot = functions.https.onRequest(async (req, res) => {
   const client = new line.Client({
     channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
     channelSecret: process.env.CHANNEL_SECRET,
